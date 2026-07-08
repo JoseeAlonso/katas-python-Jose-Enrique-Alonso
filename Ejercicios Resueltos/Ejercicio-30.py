@@ -1,5 +1,7 @@
 # Crea una función que determine si dos palabras son anagramas, es decir, si están formadas por las mismas letras pero en diferente orden.
 
+#En este ejercicio ordené las letras de cada palabra por orden alfabético para ver si coinciden. Sin embargo, es posible incluir una excepción por si ambas palabras son la misma, no permita hacer la comparación.
+
 def anagramas (palabra1, palabra2):
     
     palabra1 = palabra1.lower()
